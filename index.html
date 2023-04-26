@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/media.css"/>
+    <link rel="stylesheet" href="css/all.min.css"/>
+    <title>Suzuki Bike | Website Landing Page</title>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <a href=""><img src="img/logo.png" alt="logo"/></a>
+        <nav>
+            <ul>
+                <li><a href="">top features</a></li>
+                <li><a href="">gallery</a></li>
+                <li><a href="">store</a></li>
+                <li><a href="">contact</a></li>
+            </ul>
+            <div onmouseover="view()" onmouseout="hide()" class="menu">
+                <i  class="fa-solid fa-bars"></i>
+                <ul class="menu-bar">
+                    <li><a href="">top features</a></li>
+                    <li><a href="">gallery</a></li>
+                    <li><a href="">store</a></li>
+                    <li><a href="">contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="row-1">
+        <h1>ready to <span>race</span></h1>
+        <button>ride now</button>
+        <img src="img/bike.png" alt="bike" class="bike active"/>
+    </section>
+    <section class="row-2">
+        <div class="first active">
+            <h2 class="leftCol">engine<span>599 CC</span></h2>
+            <h2 class="RightCol">max speed<span>260 kmph</span></h2>
+        </div>
+        <div class="second">
+            <h2 class="leftCol">mileage<span>14 kmpl</span></h2>
+            <h2 class="RightCol">0-100 kmph<span>4 seconds</span></h2>
+        </div>
+        <div class="third ">
+            <h2 class="leftCol">wheels<span>17-inch Alloy</span></h2>
+            <h2 class="RightCol">tyre type<span>tubeless</span></h2>
+        </div>
+    </section>
+    <footer>
+        <div class="socialMedia-account">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="button">
+            <span class="active" onclick="buttonClick(0)"></span>
+            <span onclick="buttonClick(1)"></span>
+            <span onclick="buttonClick(2)"></span>
+        </div>
+    </footer>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
